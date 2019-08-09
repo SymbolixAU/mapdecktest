@@ -1,0 +1,7 @@
+install.packages("shinydashboard")
+install.packages("remotes")
+remotes::install_github("SymbolixAU/jsonify")
+remotes::install_github("SymbolixAU/geojsonsf")
+remotes::install_github("SymbolixAU/colourvalues")
+remotes::install_github("SymbolixAU/spatialwidget")
+remotes::install_github("SymbolixAU/mapdeck")
