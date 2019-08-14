@@ -30,7 +30,7 @@ server <- function(input, output){
   #set_token( read.dcf(".mapbox", fields = "MAPBOX"))
 
   # local and aws
-  set_token( read.dcf("~/.mapbox", fields = "MAPBOX"))
+  set_token( read.dcf("/api/.mapbox", fields = "MAPBOX"))
 
   ## initialise a map
   output$map <- renderMapdeck({
